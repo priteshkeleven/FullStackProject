@@ -1,0 +1,57 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - financialmodelingprep.com
+      User-Agent:
+      - Python-urllib/3.10
+    method: GET
+    uri: https://financialmodelingprep.com/api/v3/quote/GME?apikey=MOCK_API_KEY
+  response:
+    body:
+      string: "[\n  {\n    \"symbol\": \"GME\",\n    \"name\": \"GameStop Corp.\",\n
+        \   \"price\": 18.06,\n    \"changesPercentage\": -3.1635,\n    \"change\":
+        -0.59,\n    \"dayLow\": 18.06,\n    \"dayHigh\": 18.835,\n    \"yearHigh\":
+        49.8525,\n    \"yearLow\": 15.41,\n    \"marketCap\": 5500678391,\n    \"priceAvg50\":
+        19.9016,\n    \"priceAvg200\": 27.140675,\n    \"exchange\": \"NYSE\",\n    \"volume\":
+        2366114,\n    \"avgVolume\": 4727827,\n    \"open\": 18.54,\n    \"previousClose\":
+        18.65,\n    \"eps\": -1.64,\n    \"pe\": -11.01,\n    \"earningsAnnouncement\":
+        \"2023-03-15T10:59:00.000+0000\",\n    \"sharesOutstanding\": 304577984,\n
+        \   \"timestamp\": 1678222802\n  }\n]"
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - X-Requested-With, content-type, auth-token, Authorization, stripe-signature,
+        APPS
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '3600'
+      Connection:
+      - close
+      Content-Length:
+      - '594'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 08 Mar 2023 14:01:23 GMT
+      ETag:
+      - W/"252-3YV8k360rN54CWWpVAM/bjKtIxg"
+      Server:
+      - nginx/1.14.0 (Ubuntu)
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Powered-By:
+      - Express
+    status:
+      code: 200
+      message: OK
+version: 1
